@@ -1,0 +1,23 @@
+{
+    "name": "GIF",
+    "version": "1.0",
+    "description": "Displays small GIF on every website",
+    "manifest_version": 3,
+    
+
+    "content_scripts":[
+        {
+            "js": ["scripts/content.js", "scripts/gifReverse.js"],
+            "css": ["styles/content.css"],
+            "matches": ["<all_urls>"]
+        }
+    ],
+
+    "web_accessible_resources": [
+        {
+            "resources": ["GIF/MarcelineTheVamp.gif"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}
+
