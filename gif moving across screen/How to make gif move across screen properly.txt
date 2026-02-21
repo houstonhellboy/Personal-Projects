@@ -1,4 +1,4 @@
-Read ZyBooks chapter 6 animation!!!!!!!
+
 
 #smiley {
    color: red;
@@ -14,4 +14,5 @@ Read ZyBooks chapter 6 animation!!!!!!!
    0%   { left:0px; top:0px; }
    50%  { left:200px; top:0px; }
    100% { left:0px; top:0px; }
+
 }
