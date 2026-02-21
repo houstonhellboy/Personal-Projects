@@ -1,5 +1,5 @@
 {
-    "name": "GIF",
+    "name": "Marceline GIF",
     "version": "1.0",
     "description": "Displays small GIF on every website",
     "manifest_version": 3,
@@ -20,4 +20,5 @@
         }
     ]
 }
+
 
